@@ -45,6 +45,32 @@ This audit measures transparency, not polling accuracy. A poll can disclose
 nothing and still be well executed; the point of disclosure is that readers
 should not have to take that on faith.
 
+## November 2026 human-reader re-check
+
+`data/reaudit-human-reader-nov2026.csv`: one row per originally
+unreachable document (59 rows). On November 6, 2026 we re-visited every
+blocked citation in an ordinary consumer browser session with no
+accounts, subscriptions, or payments. Columns:
+
+| Column | Meaning |
+|---|---|
+| row | Row index of the document in the main CSV (0-based) |
+| recheck_category | bot_wall, js_shell, plain_fetch_ok, tweet_public, aggregator_no_text, paywall, bot_toll, rate_limited_unverified, dead, homepage_only |
+| human_reachable | 1 if the document opened in full for a human reader |
+| h_sponsor ... h_moe | Element codes under the human-reader standard (same 1/0/empty scheme as the main CSV) |
+| h_score | Count of disclosed elements, 0-8 |
+| note | What we found at the URL |
+
+Headline: 42 of 59 opened for a human reader and 41 could be coded in
+full. Under the human-reader standard the unreachable share of the
+public record falls from 42% to 12% (17 of 141), while the disclosure
+picture barely moves: 25% of all fully readable documents carry all 8
+elements, versus 27% under the automated-reader standard. The main CSV
+is unchanged; the original `reachable` column still describes the
+automated reader at audit time (October 2026), and categories in the
+re-check describe November 2026 (link health changes in both
+directions).
+
 ## Corrections
 
 If we misread a document or a release has moved, open an issue here or
