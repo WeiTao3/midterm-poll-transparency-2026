@@ -71,6 +71,19 @@ automated reader at audit time (October 2026), and categories in the
 re-check describe November 2026 (link health changes in both
 directions).
 
+## Note on SoCal Strategies (November 7, 2026)
+
+The main CSV contains one SoCal Strategies release (Michigan Senate,
+fielded July 28 to 30, 2026), coded 8 of 8 from the firm's Substack in
+October 2026. After our audit window, FiftyPlusOne and the Washington
+Post publicly questioned the authenticity of some SoCal Strategies
+polls, and the firm took its website and Substack offline on October
+22, 2026, which also removed the document we coded (the cited URL now
+returns 404). Nothing has been proven about this specific poll. The
+row stays as coded because this dataset records what the cited
+document disclosed when we read it; disclosure coding says nothing
+about whether the survey behind a document was conducted as described.
+
 ## Corrections
 
 If we misread a document or a release has moved, open an issue here or
