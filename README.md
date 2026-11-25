@@ -6,6 +6,8 @@ publicly cited 2026 United States midterm poll documents against 8
 disclosure elements adapted from
 [AAPOR's Disclosure Standards](https://aapor.org/standards-and-ethics/disclosure-standards/).
 
+Archived on Zenodo: [doi.org/10.5281/zenodo.24544230](https://doi.org/10.5281/zenodo.24544230).
+
 ## Headline findings
 
 - Only 27% of readable poll documents disclose all 8 elements. The median is 6.
@@ -95,3 +97,5 @@ note corrections in the report.
 Data released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 Cite as: Wavefield Research, "2026 Midterm Poll Transparency Report,"
 October 2026, https://wavefieldresearch.com/midterm-poll-transparency
+
+Dataset DOI (archived copy on Zenodo): https://doi.org/10.5281/zenodo.24544230
